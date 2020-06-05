@@ -9,8 +9,9 @@
 - 모든 분석은 동일하게 train/test 를 7:3 비율로 split 했으며, 스케일링을 거치지 않은 raw data와 로그 스케일링을 진행한 log-scaling data로 나눠서 분석 시행.
 - ensemble model의 경우 단일 모델과 실험 환경을 동일하게 하기 위해 grid search cv를 진행하지 않음.
 - lightgbm 패키지 설치 요망
+- Correlation coefficient heatmap 출력을 위한 Seaborn 패키지 설치 요망
 ```
-$ pip install lightgbm
+$ pip install lightgbm Seaborn
 ```
 ---
 ## Classification analysis
